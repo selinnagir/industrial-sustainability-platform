@@ -1,0 +1,1859 @@
+
+========================================================================================================================
+SHEET: ST23
+========================================================================================================================
+Row 0: MATCH -> co2, rate, state, output emission, input emission
+0                                              Data Year
+1                                     State abbreviation
+2                                        FIPS State code
+3                          State nameplate capacity (MW)
+4        State annual heat input from combustion (MMBtu)
+5      State ozone season heat input from combustion ...
+6                  State total annual heat input (MMBtu)
+7            State total ozone season heat input (MMBtu)
+8                      State annual net generation (MWh)
+9                State ozone season net generation (MWh)
+10             State annual nonbaseload generation (MWh)
+11                     State annual NOx emissions (tons)
+12               State ozone season NOx emissions (tons)
+13                     State annual SO2 emissions (tons)
+14                     State annual CO2 emissions (tons)
+15                      State annual CH4 emissions (lbs)
+16                      State annual N2O emissions (lbs)
+17          State annual CO2 equivalent emissions (tons)
+18                       State annual Hg emissions (lbs)
+19     State annual NOx total output emission rate (l...
+20     State ozone season NOx total output emission r...
+21     State annual SO2 total output emission rate (l...
+22     State annual CO2 total output emission rate (l...
+23     State annual CH4 total output emission rate (l...
+24     State annual N2O total output emission rate (l...
+25     State annual CO2 equivalent total output emiss...
+26     State annual Hg total output emission rate (lb...
+27       State annual NOx input emission rate (lb/MMBtu)
+28     State ozone season NOx input emission rate (lb...
+29       State annual SO2 input emission rate (lb/MMBtu)
+30       State annual CO2 input emission rate (lb/MMBtu)
+31       State annual CH4 input emission rate (lb/MMBtu)
+32       State annual N2O input emission rate (lb/MMBtu)
+33     State annual CO2 equivalent input emission rat...
+34        State annual Hg input emission rate (lb/MMBtu)
+35     State annual NOx combustion output emission ra...
+36     State ozone season NOx combustion output emiss...
+37     State annual SO2 combustion output emission ra...
+38     State annual CO2 combustion output emission ra...
+39     State annual CH4 combustion output emission ra...
+40     State annual N2O combustion output emission ra...
+41     State annual CO2 equivalent combustion output ...
+42     State annual Hg combustion output emission rat...
+43     State annual NOx coal output emission rate (lb...
+44     State annual NOx oil output emission rate (lb/...
+45     State annual NOx gas output emission rate (lb/...
+46     State annual NOx fossil fuel output emission r...
+47     State ozone season NOx coal output emission ra...
+48     State ozone season NOx oil output emission rat...
+49     State ozone season NOx gas output emission rat...
+50     State ozone season NOx fossil fuel output emis...
+51     State annual SO2 coal output emission rate (lb...
+52     State annual SO2 oil output emission rate (lb/...
+53     State annual SO2 gas output emission rate (lb/...
+54     State annual SO2 fossil fuel output emission r...
+55     State annual CO2 coal output emission rate (lb...
+56     State annual CO2 oil output emission rate (lb/...
+57     State annual CO2 gas output emission rate (lb/...
+58     State annual CO2 fossil fuel output emission r...
+59     State annual CH4 coal output emission rate (lb...
+60     State annual CH4 oil output emission rate (lb/...
+61     State annual CH4 gas output emission rate (lb/...
+62     State annual CH4 fossil fuel output emission r...
+63     State annual N2O coal output emission rate (lb...
+64     State annual N2O oil output emission rate (lb/...
+65     State annual N2O gas output emission rate (lb/...
+66     State annual N2O fossil fuel output emission r...
+67     State annual CO2 equivalent coal output emissi...
+68     State annual CO2 equivalent oil output emissio...
+69     State annual CO2 equivalent gas output emissio...
+70     State annual CO2 equivalent fossil fuel output...
+71     State annual Hg coal output emission rate (lb/...
+72     State annual Hg fossil fuel output emission ra...
+73     State annual NOx coal input emission rate (lb/...
+74     State annual NOx oil input emission rate (lb/M...
+75     State annual NOx gas input emission rate (lb/M...
+76     State annual NOx fossil fuel input emission ra...
+77     State ozone season NOx coal input emission rat...
+78     State ozone season NOx oil input emission rate...
+79     State ozone season NOx gas input emission rate...
+80     State ozone season NOx fossil fuel input emiss...
+81     State annual SO2 coal input emission rate (lb/...
+82     State annual SO2 oil input emission rate (lb/M...
+83     State annual SO2 gas input emission rate (lb/M...
+84     State annual SO2 fossil fuel input emission ra...
+85     State annual CO2 coal input emission rate (lb/...
+86     State annual CO2 oil input emission rate (lb/M...
+87     State annual CO2 gas input emission rate (lb/M...
+88     State annual CO2 fossil fuel input emission ra...
+89     State annual CH4 coal input emission rate (lb/...
+90     State annual CH4 oil input emission rate (lb/M...
+91     State annual CH4 gas input emission rate (lb/M...
+92     State annual CH4 fossil fuel input emission ra...
+93     State annual N2O coal input emission rate (lb/...
+94     State annual N2O oil input emission rate (lb/M...
+95     State annual N2O gas input emission rate (lb/M...
+96     State annual N2O fossil fuel input emission ra...
+97     State annual CO2 equivalent coal input emissio...
+98     State annual CO2 equivalent oil input emission...
+99     State annual CO2 equivalent gas input emission...
+100    State annual CO2 equivalent fossil fuel input ...
+101    State annual Hg coal input emission rate (lb/M...
+102    State annual Hg fossil fuel input emission rat...
+103    State annual NOx non-baseload output emission ...
+104    State ozone season NOx non-baseload output emi...
+105    State annual SO2 non-baseload output emission ...
+106    State annual CO2 non-baseload output emission ...
+107    State annual CH4 non-baseload output emission ...
+108    State annual N2O non-baseload output emission ...
+109    State annual CO2 equivalent non-baseload outpu...
+110    State annual Hg non-baseload output emission r...
+111               State annual coal net generation (MWh)
+112                State annual oil net generation (MWh)
+113                State annual gas net generation (MWh)
+114            State annual nuclear net generation (MWh)
+115              State annual hydro net generation (MWh)
+116            State annual biomass net generation (MWh)
+117               State annual wind net generation (MWh)
+118              State annual solar net generation (MWh)
+119         State annual geothermal net generation (MWh)
+120       State annual other fossil net generation (MWh)
+121    State annual other unknown/ purchased fuel net...
+122    State annual total nonrenewables net generatio...
+123    State annual total renewables net generation (...
+124    State annual total nonrenewable other unknown/...
+125    State annual total nonhydro renewables net gen...
+126    State annual total combustion net generation (...
+127    State annual total noncombustion net generatio...
+128    State annual total noncombustion other unknown...
+129         State coal generation percent (resource mix)
+130          State oil generation percent (resource mix)
+131          State gas generation percent (resource mix)
+132      State nuclear generation percent (resource mix)
+133        State hydro generation percent (resource mix)
+134      State biomass generation percent (resource mix)
+135         State wind generation percent (resource mix)
+136        State solar generation percent (resource mix)
+137    State geothermal generation percent (resource ...
+138    State other fossil generation percent (resourc...
+139    State other unknown/ purchased fuel generation...
+140    State total nonrenewables generation percent (...
+141    State total renewables generation percent (res...
+142    State total nonrenewables other unknown/purcha...
+143    State total nonhydro renewables generation per...
+144    State total combustion generation percent (res...
+145    State total noncombustion generation percent (...
+146    State total noncombustion other unknown/purcha...
+147    State annual nonbaseload coal net generation (...
+148    State annual nonbaseload oil net generation (MWh)
+149    State annual nonbaseload gas net generation (MWh)
+150    State annual nonbaseload nuclear net generatio...
+151    State annual nonbaseload hydro net generation ...
+152    State annual nonbaseload biomass net generatio...
+153    State annual nonbaseload wind net generation (...
+154    State annual nonbaseload solar net generation ...
+155    State annual nonbaseload geothermal net genera...
+156    State annual nonbaseload other fossil net gene...
+157    State annual nonbaseload other unknown/ purcha...
+158    State nonbaseload coal generation percent (res...
+159    State nonbaseload oil generation percent (reso...
+160    State nonbaseload gas generation percent (reso...
+161    State nonbaseload nuclear generation percent (...
+162    State nonbaseload hydro generation percent (re...
+163    State nonbaseload biomass generation percent (...
+164    State nonbaseload wind generation percent (res...
+165    State nonbaseload solar generation percent (re...
+166    State nonbaseload geothermal generation percen...
+167    State nonbaseload other fossil generation perc...
+168    State nonbaseload other unknown/ purchased fue...
+--------------------------------------------------------------------------------
+Row 1: MATCH -> co2
+0            YEAR
+1        PSTATABB
+2          FIPSST
+3      STNAMEPCAP
+4         STHTIAN
+5         STHTIOZ
+6        STHTIANT
+7        STHTIOZT
+8        STNGENAN
+9        STNGENOZ
+10       STNGENNB
+11        STNOXAN
+12        STNOXOZ
+13        STSO2AN
+14        STCO2AN
+15        STCH4AN
+16        STN2OAN
+17       STCO2EQA
+18         STHGAN
+19       STNOXRTA
+20       STNOXRTO
+21       STSO2RTA
+22       STCO2RTA
+23       STCH4RTA
+24       STN2ORTA
+25       STC2ERTA
+26        STHGRTA
+27        STNOXRA
+28        STNOXRO
+29        STSO2RA
+30        STCO2RA
+31        STCH4RA
+32        STN2ORA
+33        STC2ERA
+34         STHGRA
+35       STNOXCRT
+36       STNOXCRO
+37       STSO2CRT
+38       STCO2CRT
+39       STCH4CRT
+40       STN2OCRT
+41       STC2ECRT
+42        STHGCRT
+43       STCNOXRT
+44       STONOXRT
+45       STGNOXRT
+46       STFSNXRT
+47       STCNXORT
+48       STONXORT
+49       STGNXORT
+50       STFSNORT
+51       STCSO2RT
+52       STOSO2RT
+53       STGSO2RT
+54       STFSS2RT
+55       STCCO2RT
+56       STOCO2RT
+57       STGCO2RT
+58       STFSC2RT
+59       STCCH4RT
+60       STOCH4RT
+61       STGCH4RT
+62       STFCH4RT
+63       STCN2ORT
+64       STON2ORT
+65       STGN2ORT
+66       STFN2ORT
+67       STCC2ERT
+68       STOC2ERT
+69       STGC2ERT
+70      STFSC2ERT
+71        STCHGRT
+72       STFSHGRT
+73        STCNOXR
+74        STONOXR
+75        STGNOXR
+76        STFSNXR
+77        STCNXOR
+78        STONXOR
+79        STGNXOR
+80        STFSNOR
+81        STCSO2R
+82        STOSO2R
+83        STGSO2R
+84        STFSS2R
+85        STCCO2R
+86        STOCO2R
+87        STGCO2R
+88        STFSC2R
+89        STCCH4R
+90        STOCH4R
+91        STGCH4R
+92        STFCH4R
+93        STCN2OR
+94        STON2OR
+95        STGN2OR
+96        STFN2OR
+97        STCC2ER
+98        STOC2ER
+99        STGC2ER
+100      STFSC2ER
+101        STCHGR
+102       STFSHGR
+103       STNBNOX
+104       STNBNXO
+105       STNBSO2
+106       STNBCO2
+107       STNBCH4
+108       STNBN2O
+109       STNBC2E
+110        STNBHG
+111      STGENACL
+112      STGENAOL
+113      STGENAGS
+114      STGENANC
+115      STGENAHY
+116      STGENABM
+117      STGENAWI
+118      STGENASO
+119      STGENAGT
+120      STGENAOF
+121      STGENAOP
+122      STGENATN
+123      STGENATR
+124      STGENATO
+125      STGENATH
+126      STGENACY
+127      STGENACN
+128      STGENACO
+129        STCLPR
+130        STOLPR
+131        STGSPR
+132        STNCPR
+133        STHYPR
+134        STBMPR
+135        STWIPR
+136        STSOPR
+137        STGTPR
+138        STOFPR
+139        STOPPR
+140        STTNPR
+141        STTRPR
+142        STTOPR
+143        STTHPR
+144        STCYPR
+145        STCNPR
+146        STCOPR
+147      STNBGNCL
+148      STNBGNOL
+149      STNBGNGS
+150      STNBGNNC
+151      STNBGNHY
+152      STNBGNBM
+153      STNBGNWI
+154      STNBGNSO
+155      STNBGNGT
+156      STNBGNOF
+157      STNBGNOP
+158      STNBCLPR
+159      STNBOLPR
+160      STNBGSPR
+161      STNBNCPR
+162      STNBHYPR
+163      STNBBMPR
+164      STNBWIPR
+165      STNBSOPR
+166      STNBGTPR
+167      STNBOFPR
+168      STNBOPPR
+--------------------------------------------------------------------------------
+
+========================================================================================================================
+SHEET: SRL23
+========================================================================================================================
+Row 0: MATCH -> co2, rate, subregion, output emission, input emission
+0                                              Data Year
+1                                eGRID subregion acronym
+2                                   eGRID subregion name
+3                eGRID subregion nameplate capacity (MW)
+4      eGRID subregion annual heat input from combust...
+5      eGRID subregion ozone season heat input from c...
+6        eGRID subregion total annual heat input (MMBtu)
+7      eGRID subregion total ozone season heat input ...
+8            eGRID subregion annual net generation (MWh)
+9      eGRID subregion ozone season net generation (MWh)
+10     eGRID subregion annual nonbaseload generation ...
+11           eGRID subregion annual NOx emissions (tons)
+12     eGRID subregion ozone season NOx emissions (tons)
+13           eGRID subregion annual SO2 emissions (tons)
+14           eGRID subregion annual CO2 emissions (tons)
+15            eGRID subregion annual CH4 emissions (lbs)
+16            eGRID subregion annual N2O emissions (lbs)
+17     eGRID subregion annual CO2 equivalent emission...
+18             eGRID subregion annual Hg emissions (lbs)
+19     eGRID subregion annual NOx total output emissi...
+20     eGRID subregion ozone season NOx total output ...
+21     eGRID subregion annual SO2 total output emissi...
+22     eGRID subregion annual CO2 total output emissi...
+23     eGRID subregion annual CH4 total output emissi...
+24     eGRID subregion annual N2O total output emissi...
+25     eGRID subregion annual CO2 equivalent total ou...
+26     eGRID subregion annual Hg total output emissio...
+27     eGRID subregion annual NOx input emission rate...
+28     eGRID subregion ozone season NOx input emissio...
+29     eGRID subregion annual SO2 input emission rate...
+30     eGRID subregion annual CO2 input emission rate...
+31     eGRID subregion annual CH4 input emission rate...
+32     eGRID subregion annual N2O input emission rate...
+33     eGRID subregion annual CO2 equivalent input em...
+34     eGRID subregion annual Hg input emission rate ...
+35     eGRID subregion annual NOx combustion output e...
+36     eGRID subregion ozone season NOx combustion ou...
+37     eGRID subregion annual SO2 combustion output e...
+38     eGRID subregion annual CO2 combustion output e...
+39     eGRID subregion annual CH4 combustion output e...
+40     eGRID subregion annual N2O combustion output e...
+41     eGRID subregion annual CO2 equivalent combusti...
+42     eGRID subregion annual Hg combustion output em...
+43     eGRID subregion annual NOx coal output emissio...
+44     eGRID subregion annual NOx oil output emission...
+45     eGRID subregion annual NOx gas output emission...
+46     eGRID subregion annual NOx fossil fuel output ...
+47     eGRID subregion ozone season NOx coal output e...
+48     eGRID subregion ozone season NOx oil output em...
+49     eGRID subregion ozone season NOx gas output em...
+50     eGRID subregion ozone season NOx fossil fuel o...
+51     eGRID subregion annual SO2 coal output emissio...
+52     eGRID subregion annual SO2 oil output emission...
+53     eGRID subregion annual SO2 gas output emission...
+54     eGRID subregion annual SO2 fossil fuel output ...
+55     eGRID subregion annual CO2 coal output emissio...
+56     eGRID subregion annual CO2 oil output emission...
+57     eGRID subregion annual CO2 gas output emission...
+58     eGRID subregion annual CO2 fossil fuel output ...
+59     eGRID subregion annual CH4 coal output emissio...
+60     eGRID subregion annual CH4 oil output emission...
+61     eGRID subregion annual CH4 gas output emission...
+62     eGRID subregion annual CH4 fossil fuel output ...
+63     eGRID subregion annual N2O coal output emissio...
+64     eGRID subregion annual N2O oil output emission...
+65     eGRID subregion annual N2O gas output emission...
+66     eGRID subregion annual N2O fossil fuel output ...
+67     eGRID subregion annual CO2 equivalent coal out...
+68     eGRID subregion annual CO2 equivalent oil outp...
+69     eGRID subregion annual CO2 equivalent gas outp...
+70     eGRID subregion annual CO2 equivalent fossil f...
+71     eGRID subregion annual Hg coal output emission...
+72     eGRID subregion annual Hg fossil fuel output e...
+73     eGRID subregion annual NOx coal input emission...
+74     eGRID subregion annual NOx oil input emission ...
+75     eGRID subregion annual NOx gas input emission ...
+76     eGRID subregion annual NOx fossil fuel input e...
+77     eGRID subregion ozone season NOx coal input em...
+78     eGRID subregion ozone season NOx oil input emi...
+79     eGRID subregion ozone season NOx gas input emi...
+80     eGRID subregion ozone season NOx fossil fuel i...
+81     eGRID subregion annual SO2 coal input emission...
+82     eGRID subregion annual SO2 oil input emission ...
+83     eGRID subregion annual SO2 gas input emission ...
+84     eGRID subregion annual SO2 fossil fuel input e...
+85     eGRID subregion annual CO2 coal input emission...
+86     eGRID subregion annual CO2 oil input emission ...
+87     eGRID subregion annual CO2 gas input emission ...
+88     eGRID subregion annual CO2 fossil fuel input e...
+89     eGRID subregion annual CH4 coal input emission...
+90     eGRID subregion annual CH4 oil input emission ...
+91     eGRID subregion annual CH4 gas input emission ...
+92     eGRID subregion annual CH4 fossil fuel input e...
+93     eGRID subregion annual N2O coal input emission...
+94     eGRID subregion annual N2O oil input emission ...
+95     eGRID subregion annual N2O gas input emission ...
+96     eGRID subregion annual N2O fossil fuel input e...
+97     eGRID subregion annual CO2 equivalent coal inp...
+98     eGRID subregion annual CO2 equivalent oil inpu...
+99     eGRID subregion annual CO2 equivalent gas inpu...
+100    eGRID subregion annual CO2 equivalent fossil f...
+101    eGRID subregion annual Hg coal input emission ...
+102    eGRID subregion annual Hg fossil fuel input em...
+103    eGRID subregion annual NOx non-baseload output...
+104    eGRID subregion ozone season NOx non-baseload ...
+105    eGRID subregion annual SO2 non-baseload output...
+106    eGRID subregion annual CO2 non-baseload output...
+107    eGRID subregion annual CH4 non-baseload output...
+108    eGRID subregion annual N2O non-baseload output...
+109    eGRID subregion annual CO2 equivalent non-base...
+110    eGRID subregion annual Hg non-baseload output ...
+111     eGRID subregion annual coal net generation (MWh)
+112      eGRID subregion annual oil net generation (MWh)
+113      eGRID subregion annual gas net generation (MWh)
+114    eGRID subregion annual nuclear net generation ...
+115    eGRID subregion annual hydro net generation (MWh)
+116    eGRID subregion annual biomass net generation ...
+117     eGRID subregion annual wind net generation (MWh)
+118    eGRID subregion annual solar net generation (MWh)
+119    eGRID subregion annual geothermal net generati...
+120    eGRID subregion annual other fossil net genera...
+121    eGRID subregion annual other unknown/ purchase...
+122    eGRID subregion annual total nonrenewables net...
+123    eGRID subregion annual total renewables net ge...
+124    eGRID subregion annual total nonrenewable othe...
+125    eGRID subregion annual total nonhydro renewabl...
+126    eGRID subregion annual total combustion net ge...
+127    eGRID subregion annual total noncombustion net...
+128    eGRID subregion annual total noncombustion oth...
+129    eGRID subregion coal generation percent (resou...
+130    eGRID subregion oil generation percent (resour...
+131    eGRID subregion gas generation percent (resour...
+132    eGRID subregion nuclear generation percent (re...
+133    eGRID subregion hydro generation percent (reso...
+134    eGRID subregion biomass generation percent (re...
+135    eGRID subregion wind generation percent (resou...
+136    eGRID subregion solar generation percent (reso...
+137    eGRID subregion geothermal generation percent ...
+138    eGRID subregion other fossil generation percen...
+139    eGRID subregion other unknown/ purchased fuel ...
+140    eGRID subregion total nonrenewables generation...
+141    eGRID subregion total renewables generation pe...
+142    eGRID subregion total nonrenewables other unkn...
+143    eGRID subregion total nonhydro renewables gene...
+144    eGRID subregion total combustion generation pe...
+145    eGRID subregion total noncombustion generation...
+146    eGRID subregion total noncombustion other unkn...
+147    eGRID subregion annual nonbaseload coal net ge...
+148    eGRID subregion annual nonbaseload oil net gen...
+149    eGRID subregion annual nonbaseload gas net gen...
+150    eGRID subregion annual nonbaseload nuclear net...
+151    eGRID subregion annual nonbaseload hydro net g...
+152    eGRID subregion annual nonbaseload biomass net...
+153    eGRID subregion annual nonbaseload wind net ge...
+154    eGRID subregion annual nonbaseload solar net g...
+155    eGRID subregion annual nonbaseload geothermal ...
+156    eGRID subregion annual nonbaseload other fossi...
+157    eGRID subregion annual nonbaseload other unkno...
+158    eGRID subregion nonbaseload coal generation pe...
+159    eGRID subregion nonbaseload oil generation per...
+160    eGRID subregion nonbaseload gas generation per...
+161    eGRID subregion nonbaseload nuclear generation...
+162    eGRID subregion nonbaseload hydro generation p...
+163    eGRID subregion nonbaseload biomass generation...
+164    eGRID subregion nonbaseload wind generation pe...
+165    eGRID subregion nonbaseload solar generation p...
+166    eGRID subregion nonbaseload geothermal generat...
+167    eGRID subregion nonbaseload other fossil gener...
+168    eGRID subregion nonbaseload other unknown/ pur...
+--------------------------------------------------------------------------------
+Row 1: MATCH -> co2
+0            YEAR
+1          SUBRGN
+2          SRNAME
+3      SRNAMEPCAP
+4         SRHTIAN
+5         SRHTIOZ
+6        SRHTIANT
+7        SRHTIOZT
+8        SRNGENAN
+9        SRNGENOZ
+10       SRNGENNB
+11        SRNOXAN
+12        SRNOXOZ
+13        SRSO2AN
+14        SRCO2AN
+15        SRCH4AN
+16        SRN2OAN
+17       SRCO2EQA
+18         SRHGAN
+19       SRNOXRTA
+20       SRNOXRTO
+21       SRSO2RTA
+22       SRCO2RTA
+23       SRCH4RTA
+24       SRN2ORTA
+25       SRC2ERTA
+26        SRHGRTA
+27        SRNOXRA
+28        SRNOXRO
+29        SRSO2RA
+30        SRCO2RA
+31        SRCH4RA
+32        SRN2ORA
+33        SRC2ERA
+34         SRHGRA
+35       SRNOXCRT
+36       SRNOXCRO
+37       SRSO2CRT
+38       SRCO2CRT
+39       SRCH4CRT
+40       SRN2OCRT
+41       SRC2ECRT
+42        SRHGCRT
+43       SRCNOXRT
+44       SRONOXRT
+45       SRGNOXRT
+46       SRFSNXRT
+47       SRCNXORT
+48       SRONXORT
+49       SRGNXORT
+50       SRFSNORT
+51       SRCSO2RT
+52       SROSO2RT
+53       SRGSO2RT
+54       SRFSS2RT
+55       SRCCO2RT
+56       SROCO2RT
+57       SRGCO2RT
+58       SRFSC2RT
+59       SRCCH4RT
+60       SROCH4RT
+61       SRGCH4RT
+62       SRFCH4RT
+63       SRCN2ORT
+64       SRON2ORT
+65       SRGN2ORT
+66       SRFN2ORT
+67       SRCC2ERT
+68       SROC2ERT
+69       SRGC2ERT
+70      SRFSC2ERT
+71        SRCHGRT
+72       SRFSHGRT
+73        SRCNOXR
+74        SRONOXR
+75        SRGNOXR
+76        SRFSNXR
+77        SRCNXOR
+78        SRONXOR
+79        SRGNXOR
+80        SRFSNOR
+81        SRCSO2R
+82        SROSO2R
+83        SRGSO2R
+84        SRFSS2R
+85        SRCCO2R
+86        SROCO2R
+87        SRGCO2R
+88        SRFSC2R
+89        SRCCH4R
+90        SROCH4R
+91        SRGCH4R
+92        SRFCH4R
+93        SRCN2OR
+94        SRON2OR
+95        SRGN2OR
+96        SRFN2OR
+97        SRCC2ER
+98        SROC2ER
+99        SRGC2ER
+100      SRFSC2ER
+101        SRCHGR
+102       SRFSHGR
+103       SRNBNOX
+104       SRNBNXO
+105       SRNBSO2
+106       SRNBCO2
+107       SRNBCH4
+108       SRNBN2O
+109       SRNBC2E
+110        SRNBHG
+111      SRGENACL
+112      SRGENAOL
+113      SRGENAGS
+114      SRGENANC
+115      SRGENAHY
+116      SRGENABM
+117      SRGENAWI
+118      SRGENASO
+119      SRGENAGT
+120      SRGENAOF
+121      SRGENAOP
+122      SRGENATN
+123      SRGENATR
+124      SRGENATO
+125      SRGENATH
+126      SRGENACY
+127      SRGENACN
+128      SRGENACO
+129        SRCLPR
+130        SROLPR
+131        SRGSPR
+132        SRNCPR
+133        SRHYPR
+134        SRBMPR
+135        SRWIPR
+136        SRSOPR
+137        SRGTPR
+138        SROFPR
+139        SROPPR
+140        SRTNPR
+141        SRTRPR
+142        SRTOPR
+143        SRTHPR
+144        SRCYPR
+145        SRCNPR
+146        SRCOPR
+147      SRNBGNCL
+148      SRNBGNOL
+149      SRNBGNGS
+150      SRNBGNNC
+151      SRNBGNHY
+152      SRNBGNBM
+153      SRNBGNWI
+154      SRNBGNSO
+155      SRNBGNGT
+156      SRNBGNOF
+157      SRNBGNOP
+158      SRNBCLPR
+159      SRNBOLPR
+160      SRNBGSPR
+161      SRNBNCPR
+162      SRNBHYPR
+163      SRNBBMPR
+164      SRNBWIPR
+165      SRNBSOPR
+166      SRNBGTPR
+167      SRNBOFPR
+168      SRNBOPPR
+--------------------------------------------------------------------------------
+Row 16: MATCH -> state
+0                 2023
+1                 NYUP
+2      NPCC Upstate NY
+3              26425.4
+4        188491604.949
+5         90571616.378
+6        595434178.961
+7        260512567.372
+8         85283183.254
+9         36462787.536
+10        12232599.776
+11            3545.102
+12            1575.396
+13            1141.357
+14        10323051.399
+15          976195.474
+16          117889.644
+17        10352338.512
+18                  --
+19               0.083
+20               0.086
+21               0.027
+22             242.089
+23               0.011
+24               0.001
+25             242.776
+26                  --
+27               0.038
+28               0.035
+29               0.012
+30             109.533
+31               0.005
+32               0.001
+33             109.844
+34                  --
+35               0.306
+36               0.318
+37               0.098
+38              890.24
+39               0.042
+40               0.005
+41             892.766
+42                  --
+43                   0
+44               1.476
+45               0.195
+46               0.219
+47                   0
+48               1.403
+49               0.196
+50               0.219
+51                   0
+52               1.888
+53               0.008
+54               0.043
+55                   0
+56             915.994
+57             914.051
+58             914.088
+59                   0
+60              0.0417
+61              0.0176
+62              0.0181
+63                   0
+64              0.0089
+65              0.0018
+66              0.0019
+67                   0
+68             919.524
+69             915.011
+70             915.097
+71                  --
+72                  --
+73                   0
+74               0.157
+75               0.025
+76               0.028
+77                   0
+78               0.135
+79               0.025
+80               0.027
+81                   0
+82               0.201
+83               0.001
+84               0.006
+85                   0
+86                97.3
+87             116.151
+88             115.723
+89                   0
+90              0.0044
+91              0.0022
+92              0.0023
+93                   0
+94              0.0009
+95              0.0002
+96              0.0002
+97                   0
+98              97.674
+99             116.273
+100             115.85
+101                 --
+102                 --
+103              0.371
+104              0.352
+105              0.103
+106            909.343
+107              0.041
+108              0.005
+109            911.786
+110                 --
+111                  0
+112         113096.457
+113       21749608.456
+114           27524923
+115           28031194
+116        1059350.388
+117         4772445.43
+118            1776673
+119                  0
+120           269550.5
+121             -13658
+122       49657178.413
+123       35639662.818
+124             -13658
+125        7608468.818
+126       23191605.801
+127        62105235.43
+128             -13658
+129                  0
+130              0.001
+131              0.255
+132              0.323
+133              0.329
+134              0.012
+135              0.056
+136              0.021
+137                  0
+138              0.003
+139                  0
+140              0.582
+141              0.418
+142                  0
+143              0.089
+144              0.272
+145              0.728
+146                  0
+147                  0
+148         334160.095
+149       11436900.556
+150                  0
+151                  0
+152         461539.121
+153                  0
+154                  0
+155                  0
+156                  0
+157                  0
+158                  0
+159              0.027
+160              0.935
+161                  0
+162                  0
+163              0.038
+164                  0
+165                  0
+166                  0
+167                  0
+168                  0
+--------------------------------------------------------------------------------
+
+========================================================================================================================
+SHEET: PLNT23
+========================================================================================================================
+Row 0: MATCH -> co2, rate, state, subregion, output emission, input emission
+0                             Plant file sequence number
+1                                              Data Year
+2                               Plant state abbreviation
+3                                             Plant name
+4                    DOE/EIA ORIS plant or facility code
+5      Plant transmission or distribution system owne...
+6      Plant transmission or distribution system owne...
+7                                           Utility name
+8                                             Utility ID
+9                                     Plant-level sector
+10                              Balancing Authority Name
+11                              Balancing Authority Code
+12                                   NERC region acronym
+13                               eGRID subregion acronym
+14                                  eGRID subregion name
+15                    Plant associated ISO/RTO Territory
+16                                 Plant FIPS state code
+17                                Plant FIPS county code
+18                                     Plant county name
+19                                        Plant latitude
+20                                       Plant longitude
+21                                     CAPD Program Flag
+22                                       Number of units
+23                                  Number of generators
+24                                    Plant primary fuel
+25                           Plant primary fuel category
+26     Flag indicating if the plant burned or generat...
+27                                 Plant capacity factor
+28                         Plant nameplate capacity (MW)
+29                                    Nonbaseload Factor
+30                 Biogas/ biomass plant adjustment flag
+31     Combined heat and power (CHP) plant adjustment...
+32               CHP plant useful thermal output (MMBtu)
+33                         CHP plant power to heat ratio
+34                  CHP plant electric allocation factor
+35                             Plant pumped storage flag
+36       Plant annual heat input from combustion (MMBtu)
+37     Plant ozone season heat input from combustion ...
+38                 Plant total annual heat input (MMBtu)
+39           Plant total ozone season heat input (MMBtu)
+40                     Plant annual net generation (MWh)
+41               Plant ozone season net generation (MWh)
+42             Plant annual nonbaseload generation (MWh)
+43                     Plant annual NOx emissions (tons)
+44               Plant ozone season NOx emissions (tons)
+45                     Plant annual SO2 emissions (tons)
+46                     Plant annual CO2 emissions (tons)
+47                      Plant annual CH4 emissions (lbs)
+48                      Plant annual N2O emissions (lbs)
+49          Plant annual CO2 equivalent emissions (tons)
+50                       Plant annual Hg emissions (lbs)
+51     Plant annual NOx total output emission rate (l...
+52     Plant ozone season NOx total output emission r...
+53     Plant annual SO2 total output emission rate (l...
+54     Plant annual CO2 total output emission rate (l...
+55     Plant annual CH4 total output emission rate (l...
+56     Plant annual N2O total output emission rate (l...
+57     Plant annual CO2 equivalent total output emiss...
+58     Plant annual Hg total output emission rate (lb...
+59       Plant annual NOx input emission rate (lb/MMBtu)
+60     Plant ozone season NOx input emission rate (lb...
+61       Plant annual SO2 input emission rate (lb/MMBtu)
+62       Plant annual CO2 input emission rate (lb/MMBtu)
+63       Plant annual CH4 input emission rate (lb/MMBtu)
+64       Plant annual N2O input emission rate (lb/MMBtu)
+65     Plant annual CO2 equivalent input emission rat...
+66        Plant annual Hg input emission rate (lb/MMBtu)
+67     Plant annual NOx combustion output emission ra...
+68     Plant ozone season NOx combustion output emiss...
+69     Plant annual SO2 combustion output emission ra...
+70     Plant annual CO2 combustion output emission ra...
+71     Plant annual CH4 combustion output emission ra...
+72     Plant annual N2O combustion output emission ra...
+73     Plant annual CO2 equivalent combustion output ...
+74     Plant annual Hg combustion output emission rat...
+75          Plant unadjusted annual NOx emissions (tons)
+76     Plant unadjusted ozone season NOx emissions (t...
+77          Plant unadjusted annual SO2 emissions (tons)
+78          Plant unadjusted annual CO2 emissions (tons)
+79           Plant unadjusted annual CH4 emissions (lbs)
+80           Plant unadjusted annual N2O emissions (lbs)
+81     Plant unadjusted annual CO2 equivalent emissio...
+82            Plant unadjusted annual Hg emissions (lbs)
+83     Plant unadjusted annual heat input from combus...
+84     Plant unadjusted ozone season heat input from ...
+85      Plant unadjusted total annual heat input (MMBtu)
+86     Plant unadjusted total ozone season heat input...
+87          Plant unadjusted annual NOx emissions source
+88     Plant unadjusted ozone season NOx emissions so...
+89          Plant unadjusted annual SO2 emissions source
+90          Plant unadjusted annual CO2 emissions source
+91          Plant unadjusted annual CH4 emissions source
+92          Plant unadjusted annual N2O emissions source
+93     Plant unadjusted annual CO2 equivalent emissio...
+94           Plant unadjusted annual Hg emissions source
+95             Plant unadjusted annual heat input source
+96       Plant unadjusted ozone season heat input source
+97             Plant annual NOx biomass emissions (tons)
+98       Plant ozone season NOx biomass emissions (tons)
+99             Plant annual SO2 biomass emissions (tons)
+100            Plant annual CO2 biomass emissions (tons)
+101             Plant annual CH4 biomass emissions (lbs)
+102             Plant annual N2O biomass emissions (lbs)
+103    Plant annual CO2 equivalent biomass emissions ...
+104    Plant combustion heat input CHP adjustment val...
+105    Plant combustion annual ozone season heat inpu...
+106    Plant annual NOx emissions CHP adjustment valu...
+107    Plant ozone season NOx emissions CHP adjustmen...
+108    Plant annual SO2 emissions CHP adjustment valu...
+109    Plant annual CO2 emissions CHP adjustment valu...
+110    Plant annual CH4 emissions CHP adjustment valu...
+111    Plant annual N2O emissions CHP adjustment valu...
+112    Plant annual CO2 equivalent emissions CHP adju...
+113                    Plant nominal heat rate (Btu/kWh)
+114               Plant annual coal net generation (MWh)
+115                Plant annual oil net generation (MWh)
+116                Plant annual gas net generation (MWh)
+117            Plant annual nuclear net generation (MWh)
+118              Plant annual hydro net generation (MWh)
+119            Plant annual biomass net generation (MWh)
+120               Plant annual wind net generation (MWh)
+121              Plant annual solar net generation (MWh)
+122         Plant annual geothermal net generation (MWh)
+123       Plant annual other fossil net generation (MWh)
+124    Plant annual other unknown/ purchased fuel net...
+125    Plant annual total nonrenewables net generatio...
+126    Plant annual total renewables net generation (...
+127    Plant annual total renewables other unknown/pu...
+128    Plant annual total nonhydro renewables net gen...
+129    Plant annual total combustion net generation (...
+130    Plant annual total noncombustion net generatio...
+131    Plant annual total noncombustion other unknown...
+132         Plant coal generation percent (resource mix)
+133          Plant oil generation percent (resource mix)
+134          Plant gas generation percent (resource mix)
+135      Plant nuclear generation percent (resource mix)
+136        Plant hydro generation percent (resource mix)
+137      Plant biomass generation percent (resource mix)
+138         Plant wind generation percent (resource mix)
+139        Plant solar generation percent (resource mix)
+140    Plant geothermal generation percent (resource ...
+141    Plant other fossil generation percent (resourc...
+142    Plant other unknown / purchased fuel generatio...
+143    Plant total nonrenewables generation percent (...
+144    Plant total renewables generation percent (res...
+145    Plant total nonrenewables other unknown/purcha...
+146    Plant total nonhydro renewables generation per...
+147    Plant total combustion generation percent (res...
+148    Plant total noncombustion generation percent (...
+149    Plant total noncombustion other unknown/purcha...
+--------------------------------------------------------------------------------
+Row 1: MATCH -> co2
+0       SEQPLT23
+1           YEAR
+2       PSTATABB
+3          PNAME
+4         ORISPL
+5        OPRNAME
+6        OPRCODE
+7       UTLSRVNM
+8       UTLSRVID
+9         SECTOR
+10        BANAME
+11        BACODE
+12          NERC
+13        SUBRGN
+14        SRNAME
+15        ISORTO
+16        FIPSST
+17      FIPSCNTY
+18      CNTYNAME
+19           LAT
+20           LON
+21      CAPDFLAG
+22        NUMUNT
+23        NUMGEN
+24       PLPRMFL
+25      PLFUELCT
+26      COALFLAG
+27        CAPFAC
+28      NAMEPCAP
+29      NBFACTOR
+30      RMBMFLAG
+31       CHPFLAG
+32      USETHRMO
+33       PWRTOHT
+34      ELCALLOC
+35        PSFLAG
+36       PLHTIAN
+37       PLHTIOZ
+38      PLHTIANT
+39      PLHTIOZT
+40      PLNGENAN
+41      PLNGENOZ
+42      PLNGENNB
+43       PLNOXAN
+44       PLNOXOZ
+45       PLSO2AN
+46       PLCO2AN
+47       PLCH4AN
+48       PLN2OAN
+49      PLCO2EQA
+50        PLHGAN
+51      PLNOXRTA
+52      PLNOXRTO
+53      PLSO2RTA
+54      PLCO2RTA
+55      PLCH4RTA
+56      PLN2ORTA
+57      PLC2ERTA
+58       PLHGRTA
+59       PLNOXRA
+60       PLNOXRO
+61       PLSO2RA
+62       PLCO2RA
+63       PLCH4RA
+64       PLN2ORA
+65       PLC2ERA
+66        PLHGRA
+67      PLNOXCRT
+68      PLNOXCRO
+69      PLSO2CRT
+70      PLCO2CRT
+71      PLCH4CRT
+72      PLN2OCRT
+73      PLC2ECRT
+74       PLHGCRT
+75         UNNOX
+76       UNNOXOZ
+77         UNSO2
+78         UNCO2
+79         UNCH4
+80         UNN2O
+81        UNCO2E
+82          UNHG
+83         UNHTI
+84       UNHTIOZ
+85        UNHTIT
+86      UNHTIOZT
+87      UNNOXSRC
+88      UNNOZSRC
+89      UNSO2SRC
+90      UNCO2SRC
+91      UNCH4SRC
+92      UNN2OSRC
+93      UNC2ESRC
+94       UNHGSRC
+95      UNHTISRC
+96      UNHOZSRC
+97        BIONOX
+98      BIONOXOZ
+99        BIOSO2
+100       BIOCO2
+101       BIOCH4
+102       BION2O
+103      BIOCO2E
+104      CHPCHTI
+105    CHPCHTIOZ
+106       CHPNOX
+107     CHPNOXOZ
+108       CHPSO2
+109       CHPCO2
+110       CHPCH4
+111       CHPN2O
+112      CHPCO2E
+113       PLHTRT
+114     PLGENACL
+115     PLGENAOL
+116     PLGENAGS
+117     PLGENANC
+118     PLGENAHY
+119     PLGENABM
+120     PLGENAWI
+121     PLGENASO
+122     PLGENAGT
+123     PLGENAOF
+124     PLGENAOP
+125     PLGENATN
+126     PLGENATR
+127     PLGENATO
+128     PLGENATH
+129     PLGENACY
+130     PLGENACN
+131     PLGENACO
+132       PLCLPR
+133       PLOLPR
+134       PLGSPR
+135       PLNCPR
+136       PLHYPR
+137       PLBMPR
+138       PLWIPR
+139       PLSOPR
+140       PLGTPR
+141       PLOFPR
+142       PLOPPR
+143       PLTNPR
+144       PLTRPR
+145       PLTOPR
+146       PLTHPR
+147       PLCYPR
+148       PLCNPR
+149       PLCOPR
+--------------------------------------------------------------------------------
+
+========================================================================================================================
+SHEET: BA23
+========================================================================================================================
+Row 0: MATCH -> co2, rate, output emission, input emission
+0                                              Data Year
+1                               Balancing Authority Name
+2                               Balancing Authority Code
+3                             BA nameplate capacity (MW)
+4           BA annual heat input from combustion (MMBtu)
+5      BA ozone season heat input from combustion (MM...
+6                     BA total annual heat input (MMBtu)
+7               BA total ozone season heat input (MMBtu)
+8                         BA annual net generation (MWh)
+9                   BA ozone season net generation (MWh)
+10                BA annual nonbaseload generation (MWh)
+11                        BA annual NOx emissions (tons)
+12                  BA ozone season NOx emissions (tons)
+13                        BA annual SO2 emissions (tons)
+14                        BA annual CO2 emissions (tons)
+15                         BA annual CH4 emissions (lbs)
+16                         BA annual N2O emissions (lbs)
+17             BA annual CO2 equivalent emissions (tons)
+18                          BA annual Hg emissions (lbs)
+19     BA annual NOx total output emission rate (lb/MWh)
+20     BA ozone season NOx total output emission rate...
+21     BA annual SO2 total output emission rate (lb/MWh)
+22     BA annual CO2 total output emission rate (lb/MWh)
+23     BA annual CH4 total output emission rate (lb/MWh)
+24     BA annual N2O total output emission rate (lb/MWh)
+25     BA annual CO2 equivalent total output emission...
+26      BA annual Hg total output emission rate (lb/MWh)
+27          BA annual NOx input emission rate (lb/MMBtu)
+28     BA ozone season NOx input emission rate (lb/MM...
+29          BA annual SO2 input emission rate (lb/MMBtu)
+30          BA annual CO2 input emission rate (lb/MMBtu)
+31          BA annual CH4 input emission rate (lb/MMBtu)
+32          BA annual N2O input emission rate (lb/MMBtu)
+33     BA annual CO2 equivalent input emission rate (...
+34           BA annual Hg input emission rate (lb/MMBtu)
+35     BA annual NOx combustion output emission rate ...
+36     BA ozone season NOx combustion output emission...
+37     BA annual SO2 combustion output emission rate ...
+38     BA annual CO2 combustion output emission rate ...
+39     BA annual CH4 combustion output emission rate ...
+40     BA annual N2O combustion output emission rate ...
+41     BA annual CO2 equivalent combustion output emi...
+42     BA annual Hg combustion output emission rate (...
+43      BA annual NOx coal output emission rate (lb/MWh)
+44       BA annual NOx oil output emission rate (lb/MWh)
+45       BA annual NOx gas output emission rate (lb/MWh)
+46     BA annual NOx fossil fuel output emission rate...
+47     BA ozone season NOx coal output emission rate ...
+48     BA ozone season NOx oil output emission rate (...
+49     BA ozone season NOx gas output emission rate (...
+50     BA ozone season NOx fossil fuel output emissio...
+51      BA annual SO2 coal output emission rate (lb/MWh)
+52       BA annual SO2 oil output emission rate (lb/MWh)
+53       BA annual SO2 gas output emission rate (lb/MWh)
+54     BA annual SO2 fossil fuel output emission rate...
+55      BA annual CO2 coal output emission rate (lb/MWh)
+56       BA annual CO2 oil output emission rate (lb/MWh)
+57       BA annual CO2 gas output emission rate (lb/MWh)
+58     BA annual CO2 fossil fuel output emission rate...
+59      BA annual CH4 coal output emission rate (lb/MWh)
+60       BA annual CH4 oil output emission rate (lb/MWh)
+61       BA annual CH4 gas output emission rate (lb/MWh)
+62     BA annual CH4 fossil fuel output emission rate...
+63      BA annual N2O coal output emission rate (lb/MWh)
+64       BA annual N2O oil output emission rate (lb/MWh)
+65       BA annual N2O gas output emission rate (lb/MWh)
+66     BA annual N2O fossil fuel output emission rate...
+67     BA annual CO2 equivalent coal output emission ...
+68     BA annual CO2 equivalent oil output emission r...
+69     BA annual CO2 equivalent gas output emission r...
+70     BA annual CO2 equivalent fossil fuel output em...
+71       BA annual Hg coal output emission rate (lb/MWh)
+72     BA annual Hg fossil fuel output emission rate ...
+73     BA annual NOx coal input emission rate (lb/MMBtu)
+74      BA annual NOx oil input emission rate (lb/MMBtu)
+75      BA annual NOx gas input emission rate (lb/MMBtu)
+76     BA annual NOx fossil fuel input emission rate ...
+77     BA ozone season NOx coal input emission rate (...
+78     BA ozone season NOx oil input emission rate (l...
+79     BA ozone season NOx gas input emission rate (l...
+80     BA ozone season NOx fossil fuel input emission...
+81     BA annual SO2 coal input emission rate (lb/MMBtu)
+82      BA annual SO2 oil input emission rate (lb/MMBtu)
+83      BA annual SO2 gas input emission rate (lb/MMBtu)
+84     BA annual SO2 fossil fuel input emission rate ...
+85     BA annual CO2 coal input emission rate (lb/MMBtu)
+86      BA annual CO2 oil input emission rate (lb/MMBtu)
+87      BA annual CO2 gas input emission rate (lb/MMBtu)
+88     BA annual CO2 fossil fuel input emission rate ...
+89     BA annual CH4 coal input emission rate (lb/MMBtu)
+90      BA annual CH4 oil input emission rate (lb/MMBtu)
+91      BA annual CH4 gas input emission rate (lb/MMBtu)
+92     BA annual CH4 fossil fuel input emission rate ...
+93     BA annual N2O coal input emission rate (lb/MMBtu)
+94      BA annual N2O oil input emission rate (lb/MMBtu)
+95      BA annual N2O gas input emission rate (lb/MMBtu)
+96     BA annual N2O fossil fuel input emission rate ...
+97     BA annual CO2 equivalent coal input emission r...
+98     BA annual CO2 equivalent oil input emission ra...
+99     BA annual CO2 equivalent gas input emission ra...
+100    BA annual CO2 equivalent fossil fuel input emi...
+101     BA annual Hg coal input emission rate (lb/MMBtu)
+102    BA annual Hg fossil fuel input emission rate (...
+103    BA annual NOx non-baseload output emission rat...
+104    BA ozone season NOx non-baseload output emissi...
+105    BA annual SO2 non-baseload output emission rat...
+106    BA annual CO2 non-baseload output emission rat...
+107    BA annual CH4 non-baseload output emission rat...
+108    BA annual N2O non-baseload output emission rat...
+109    BA annual CO2 equivalent non-baseload output e...
+110    BA annual Hg non-baseload output emission rate...
+111                  BA annual coal net generation (MWh)
+112                   BA annual oil net generation (MWh)
+113                   BA annual gas net generation (MWh)
+114               BA annual nuclear net generation (MWh)
+115                 BA annual hydro net generation (MWh)
+116               BA annual biomass net generation (MWh)
+117                  BA annual wind net generation (MWh)
+118                 BA annual solar net generation (MWh)
+119            BA annual geothermal net generation (MWh)
+120          BA annual other fossil net generation (MWh)
+121    BA annual other unknown/ purchased fuel net ge...
+122    BA annual total nonrenewables net generation (...
+123      BA annual total renewables net generation (MWh)
+124    BA annual total nonrenewable other unknown/pur...
+125    BA annual total nonhydro renewables net genera...
+126      BA annual total combustion net generation (MWh)
+127    BA annual total noncombustion net generation (...
+128    BA annual total noncombustion other unknown/pu...
+129            BA coal generation percent (resource mix)
+130             BA oil generation percent (resource mix)
+131             BA gas generation percent (resource mix)
+132         BA nuclear generation percent (resource mix)
+133           BA hydro generation percent (resource mix)
+134         BA biomass generation percent (resource mix)
+135            BA wind generation percent (resource mix)
+136           BA solar generation percent (resource mix)
+137      BA geothermal generation percent (resource mix)
+138    BA other fossil generation percent (resource mix)
+139    BA other unknown/ purchased fuel generation pe...
+140    BA total nonrenewables generation percent (res...
+141    BA total renewables generation percent (resour...
+142    BA total nonrenewables other unknown/purchased...
+143    BA total nonhydro renewables generation percen...
+144    BA total combustion generation percent (resour...
+145    BA total noncombustion generation percent (res...
+146    BA total noncombustion other unknown/purchased...
+147      BA annual nonbaseload coal net generation (MWh)
+148       BA annual nonbaseload oil net generation (MWh)
+149       BA annual nonbaseload gas net generation (MWh)
+150    BA annual nonbaseload nuclear net generation (...
+151     BA annual nonbaseload hydro net generation (MWh)
+152    BA annual nonbaseload biomass net generation (...
+153      BA annual nonbaseload wind net generation (MWh)
+154     BA annual nonbaseload solar net generation (MWh)
+155    BA annual nonbaseload geothermal net generatio...
+156    BA annual nonbaseload other fossil net generat...
+157    BA annual nonbaseload other unknown/ purchased...
+158    BA nonbaseload coal generation percent (resour...
+159    BA nonbaseload oil generation percent (resourc...
+160    BA nonbaseload gas generation percent (resourc...
+161    BA nonbaseload nuclear generation percent (res...
+162    BA nonbaseload hydro generation percent (resou...
+163    BA nonbaseload biomass generation percent (res...
+164    BA nonbaseload wind generation percent (resour...
+165    BA nonbaseload solar generation percent (resou...
+166    BA nonbaseload geothermal generation percent (...
+167    BA nonbaseload other fossil generation percent...
+168    BA nonbaseload other unknown/ purchased fuel g...
+--------------------------------------------------------------------------------
+Row 1: MATCH -> co2
+0            YEAR
+1          BANAME
+2          BACODE
+3      BANAMEPCAP
+4         BAHTIAN
+5         BAHTIOZ
+6        BAHTIANT
+7        BAHTIOZT
+8        BANGENAN
+9        BANGENOZ
+10       BANGENNB
+11        BANOXAN
+12        BANOXOZ
+13        BASO2AN
+14        BACO2AN
+15        BACH4AN
+16        BAN2OAN
+17       BACO2EQA
+18         BAHGAN
+19       BANOXRTA
+20       BANOXRTO
+21       BASO2RTA
+22       BACO2RTA
+23       BACH4RTA
+24       BAN2ORTA
+25       BAC2ERTA
+26        BAHGRTA
+27        BANOXRA
+28        BANOXRO
+29        BASO2RA
+30        BACO2RA
+31        BACH4RA
+32        BAN2ORA
+33        BAC2ERA
+34         BAHGRA
+35       BANOXCRT
+36       BANOXCRO
+37       BASO2CRT
+38       BACO2CRT
+39       BACH4CRT
+40       BAN2OCRT
+41       BAC2ECRT
+42        BAHGCRT
+43       BACNOXRT
+44       BAONOXRT
+45       BAGNOXRT
+46       BAFSNXRT
+47       BACNXORT
+48       BAONXORT
+49       BAGNXORT
+50       BAFSNORT
+51       BACSO2RT
+52       BAOSO2RT
+53       BAGSO2RT
+54       BAFSS2RT
+55       BACCO2RT
+56       BAOCO2RT
+57       BAGCO2RT
+58       BAFSC2RT
+59       BACCH4RT
+60       BAOCH4RT
+61       BAGCH4RT
+62       BAFCH4RT
+63       BACN2ORT
+64       BAON2ORT
+65       BAGN2ORT
+66       BAFN2ORT
+67       BACC2ERT
+68       BAOC2ERT
+69       BAGC2ERT
+70      BAFSC2ERT
+71        BACHGRT
+72       BAFSHGRT
+73        BACNOXR
+74        BAONOXR
+75        BAGNOXR
+76        BAFSNXR
+77        BACNXOR
+78        BAONXOR
+79        BAGNXOR
+80        BAFSNOR
+81        BACSO2R
+82        BAOSO2R
+83        BAGSO2R
+84        BAFSS2R
+85        BACCO2R
+86        BAOCO2R
+87        BAGCO2R
+88        BAFSC2R
+89        BACCH4R
+90        BAOCH4R
+91        BAGCH4R
+92        BAFCH4R
+93        BACN2OR
+94        BAON2OR
+95        BAGN2OR
+96        BAFN2OR
+97        BACC2ER
+98        BAOC2ER
+99        BAGC2ER
+100      BAFSC2ER
+101        BACHGR
+102       BAFSHGR
+103       BANBNOX
+104       BANBNXO
+105       BANBSO2
+106       BANBCO2
+107       BANBCH4
+108       BANBN2O
+109       BANBC2E
+110        BANBHG
+111      BAGENACL
+112      BAGENAOL
+113      BAGENAGS
+114      BAGENANC
+115      BAGENAHY
+116      BAGENABM
+117      BAGENAWI
+118      BAGENASO
+119      BAGENAGT
+120      BAGENAOF
+121      BAGENAOP
+122      BAGENATN
+123      BAGENATR
+124      BAGENATO
+125      BAGENATH
+126      BAGENACY
+127      BAGENACN
+128      BAGENACO
+129        BACLPR
+130        BAOLPR
+131        BAGSPR
+132        BANCPR
+133        BAHYPR
+134        BABMPR
+135        BAWIPR
+136        BASOPR
+137        BAGTPR
+138        BAOFPR
+139        BAOPPR
+140        BATNPR
+141        BATRPR
+142        BATOPR
+143        BATHPR
+144        BACYPR
+145        BACNPR
+146        BACOPR
+147      BANBGNCL
+148      BANBGNOL
+149      BANBGNGS
+150      BANBGNNC
+151      BANBGNHY
+152      BANBGNBM
+153      BANBGNWI
+154      BANBGNSO
+155      BANBGNGT
+156      BANBGNOF
+157      BANBGNOP
+158      BANBCLPR
+159      BANBOLPR
+160      BANBGSPR
+161      BANBNCPR
+162      BANBHYPR
+163      BANBBMPR
+164      BANBWIPR
+165      BANBSOPR
+166      BANBGTPR
+167      BANBOFPR
+168      BANBOPPR
+--------------------------------------------------------------------------------
+
+========================================================================================================================
+SHEET: US23
+========================================================================================================================
+Row 0: MATCH -> co2, rate, output emission, input emission
+0                                              Data Year
+1                           U.S. nameplate capacity (MW)
+2         U.S. annual heat input from combustion (MMBtu)
+3      U.S. ozone season heat input from combustion (...
+4                   U.S. total annual heat input (MMBtu)
+5             U.S. total ozone season heat input (MMBtu)
+6                       U.S. annual net generation (MWh)
+7                 U.S. ozone season net generation (MWh)
+8               U.S. annual nonbaseload generation (MWh)
+9                       U.S. annual NOx emissions (tons)
+10                U.S. ozone season NOx emissions (tons)
+11                      U.S. annual SO2 emissions (tons)
+12                      U.S. annual CO2 emissions (tons)
+13                       U.S. annual CH4 emissions (lbs)
+14                       U.S. annual N2O emissions (lbs)
+15           U.S. annual CO2 equivalent emissions (tons)
+16                        U.S. annual Hg emissions (lbs)
+17     U.S. annual NOx total output emission rate (lb...
+18     U.S. ozone season NOx total output emission ra...
+19     U.S. annual SO2 total output emission rate (lb...
+20     U.S. annual CO2 total output emission rate (lb...
+21     U.S. annual CH4 total output emission rate (lb...
+22     U.S. annual N2O total output emission rate (lb...
+23     U.S. annual CO2 equivalent total output emissi...
+24     U.S. annual Hg total output emission rate (lb/...
+25        U.S. annual NOx input emission rate (lb/MMBtu)
+26     U.S. ozone season NOx input emission rate (lb/...
+27        U.S. annual SO2 input emission rate (lb/MMBtu)
+28        U.S. annual CO2 input emission rate (lb/MMBtu)
+29        U.S. annual CH4 input emission rate (lb/MMBtu)
+30        U.S. annual N2O input emission rate (lb/MMBtu)
+31     U.S. annual CO2 equivalent input emission rate...
+32         U.S. annual Hg input emission rate (lb/MMBtu)
+33     U.S. annual NOx combustion output emission rat...
+34     U.S. ozone season NOx combustion output emissi...
+35     U.S. annual SO2 combustion output emission rat...
+36     U.S. annual CO2 combustion output emission rat...
+37     U.S. annual CH4 combustion output emission rat...
+38     U.S. annual N2O combustion output emission rat...
+39     U.S. annual CO2 equivalent combustion output e...
+40     U.S. annual Hg combustion output emission rate...
+41     U.S. annual NOx coal output emission rate (lb/...
+42     U.S. annual NOx oil output emission rate (lb/MWh)
+43     U.S. annual NOx gas output emission rate (lb/MWh)
+44     U.S. annual NOx fossil fuel output emission ra...
+45     U.S. ozone season NOx coal output emission rat...
+46     U.S. ozone season NOx oil output emission rate...
+47     U.S. ozone season NOx gas output emission rate...
+48     U.S. ozone season NOx fossil fuel output emiss...
+49     U.S. annual SO2 coal output emission rate (lb/...
+50     U.S. annual SO2 oil output emission rate (lb/MWh)
+51     U.S. annual SO2 gas output emission rate (lb/MWh)
+52     U.S. annual SO2 fossil fuel output emission ra...
+53     U.S. annual CO2 coal output emission rate (lb/...
+54     U.S. annual CO2 oil output emission rate (lb/MWh)
+55     U.S. annual CO2 gas output emission rate (lb/MWh)
+56     U.S. annual CO2 fossil fuel output emission ra...
+57     U.S. annual CH4 coal output emission rate (lb/...
+58     U.S. annual CH4 oil output emission rate (lb/MWh)
+59     U.S. annual CH4 gas output emission rate (lb/MWh)
+60     U.S. annual CH4 fossil fuel output emission ra...
+61     U.S. annual N2O coal output emission rate (lb/...
+62     U.S. annual N2O oil output emission rate (lb/MWh)
+63     U.S. annual N2O gas output emission rate (lb/MWh)
+64     U.S. annual N2O fossil fuel output emission ra...
+65     U.S. annual CO2 equivalent coal output emissio...
+66     U.S. annual CO2 equivalent oil output emission...
+67     U.S. annual CO2 equivalent gas output emission...
+68     U.S. annual CO2 equivalent fossil fuel output ...
+69     U.S. annual Hg coal output emission rate (lb/MWh)
+70     U.S. annual Hg fossil fuel output emission rat...
+71     U.S. annual NOx coal input emission rate (lb/M...
+72     U.S. annual NOx oil input emission rate (lb/MM...
+73     U.S. annual NOx gas input emission rate (lb/MM...
+74     U.S. annual NOx fossil fuel input emission rat...
+75     U.S. ozone season NOx coal input emission rate...
+76     U.S. ozone season NOx oil input emission rate ...
+77     U.S. ozone season NOx gas input emission rate ...
+78     U.S. ozone season NOx fossil fuel input emissi...
+79     U.S. annual SO2 coal input emission rate (lb/M...
+80     U.S. annual SO2 oil input emission rate (lb/MM...
+81     U.S. annual SO2 gas input emission rate (lb/MM...
+82     U.S. annual SO2 fossil fuel input emission rat...
+83     U.S. annual CO2 coal input emission rate (lb/M...
+84     U.S. annual CO2 oil input emission rate (lb/MM...
+85     U.S. annual CO2 gas input emission rate (lb/MM...
+86     U.S. annual CO2 fossil fuel input emission rat...
+87     U.S. annual CH4 coal input emission rate (lb/M...
+88     U.S. annual CH4 oil input emission rate (lb/MM...
+89     U.S. annual CH4 gas input emission rate (lb/MM...
+90     U.S. annual CH4 fossil fuel input emission rat...
+91     U.S. annual N2O coal input emission rate (lb/M...
+92     U.S. annual N2O oil input emission rate (lb/MM...
+93     U.S. annual N2O gas input emission rate (lb/MM...
+94     U.S. annual N2O fossil fuel input emission rat...
+95     U.S. annual CO2 equivalent coal input emission...
+96     U.S. annual CO2 equivalent oil input emission ...
+97     U.S. annual CO2 equivalent gas input emission ...
+98     U.S. annual CO2 equivalent fossil fuel input e...
+99     U.S. annual Hg coal input emission rate (lb/MM...
+100    U.S. annual Hg fossil fuel input emission rate...
+101    U.S. annual NOx non-baseload output emission r...
+102    U.S. ozone season NOx non-baseload output emis...
+103    U.S. annual SO2 non-baseload output emission r...
+104    U.S. annual CO2 non-baseload output emission r...
+105    U.S. annual CH4 non-baseload output emission r...
+106    U.S. annual N2O non-baseload output emission r...
+107    U.S. annual CO2 equivalent non-baseload output...
+108    U.S. annual Hg non-baseload output emission ra...
+109                U.S. annual coal net generation (MWh)
+110                 U.S. annual oil net generation (MWh)
+111                 U.S. annual gas net generation (MWh)
+112             U.S. annual nuclear net generation (MWh)
+113               U.S. annual hydro net generation (MWh)
+114             U.S. annual biomass net generation (MWh)
+115                U.S. annual wind net generation (MWh)
+116               U.S. annual solar net generation (MWh)
+117          U.S. annual geothermal net generation (MWh)
+118        U.S. annual other fossil net generation (MWh)
+119    U.S. annual other unknown/ purchased fuel net ...
+120    U.S. annual total nonrenewables net generation...
+121    U.S. annual total renewables net generation (MWh)
+122    U.S. annual total nonrenewable other unknown/p...
+123    U.S. annual total nonhydro renewables net gene...
+124    U.S. annual total combustion net generation (MWh)
+125    U.S. annual total noncombustion net generation...
+126    U.S. annual total noncombustion other unknown/...
+127          U.S. coal generation percent (resource mix)
+128           U.S. oil generation percent (resource mix)
+129           U.S. gas generation percent (resource mix)
+130       U.S. nuclear generation percent (resource mix)
+131         U.S. hydro generation percent (resource mix)
+132       U.S. biomass generation percent (resource mix)
+133          U.S. wind generation percent (resource mix)
+134         U.S. solar generation percent (resource mix)
+135    U.S. geothermal generation percent (resource mix)
+136    U.S. other fossil generation percent (resource...
+137    U.S. other unknown/ purchased fuel generation ...
+138    U.S. total nonrenewables generation percent (r...
+139    U.S. total renewables generation percent (reso...
+140    U.S. total nonrenewables other unknown/purchas...
+141    U.S. total nonhydro renewables generation perc...
+142    U.S. total combustion generation percent (reso...
+143    U.S. total noncombustion generation percent (r...
+144    U.S. total noncombustion other unknown/purchas...
+145    U.S. annual nonbaseload coal net generation (MWh)
+146     U.S. annual nonbaseload oil net generation (MWh)
+147     U.S. annual nonbaseload gas net generation (MWh)
+148    U.S. annual nonbaseload nuclear net generation...
+149    U.S. annual nonbaseload hydro net generation (...
+150    U.S. annual nonbaseload biomass net generation...
+151    U.S. annual nonbaseload wind net generation (MWh)
+152    U.S. annual nonbaseload solar net generation (...
+153    U.S. annual nonbaseload geothermal net generat...
+154    U.S. annual nonbaseload other fossil net gener...
+155    U.S. annual nonbaseload other unknown/ purchas...
+156    U.S. nonbaseload coal generation percent (reso...
+157    U.S. nonbaseload oil generation percent (resou...
+158    U.S. nonbaseload gas generation percent (resou...
+159    U.S. nonbaseload nuclear generation percent (r...
+160    U.S. nonbaseload hydro generation percent (res...
+161    U.S. nonbaseload biomass generation percent (r...
+162    U.S. nonbaseload wind generation percent (reso...
+163    U.S. nonbaseload solar generation percent (res...
+164    U.S. nonbaseload geothermal generation percent...
+165    U.S. nonbaseload other fossil generation perce...
+166    U.S. nonbaseload other unknown/ purchased fuel...
+--------------------------------------------------------------------------------
+Row 1: MATCH -> co2
+0            YEAR
+1      USNAMEPCAP
+2         USHTIAN
+3         USHTIOZ
+4        USHTIANT
+5        USHTIOZT
+6        USNGENAN
+7        USNGENOZ
+8        USNGENNB
+9         USNOXAN
+10        USNOXOZ
+11        USSO2AN
+12        USCO2AN
+13        USCH4AN
+14        USN2OAN
+15       USCO2EQA
+16         USHGAN
+17       USNOXRTA
+18       USNOXRTO
+19       USSO2RTA
+20       USCO2RTA
+21       USCH4RTA
+22       USN2ORTA
+23       USC2ERTA
+24        USHGRTA
+25        USNOXRA
+26        USNOXRO
+27        USSO2RA
+28        USCO2RA
+29        USCH4RA
+30        USN2ORA
+31        USC2ERA
+32         USHGRA
+33       USNOXCRT
+34       USNOXCRO
+35       USSO2CRT
+36       USCO2CRT
+37       USCH4CRT
+38       USN2OCRT
+39       USC2ECRT
+40        USHGCRT
+41       USCNOXRT
+42       USONOXRT
+43       USGNOXRT
+44       USFSNXRT
+45       USCNXORT
+46       USONXORT
+47       USGNXORT
+48       USFSNORT
+49       USCSO2RT
+50       USOSO2RT
+51       USGSO2RT
+52       USFSS2RT
+53       USCCO2RT
+54       USOCO2RT
+55       USGCO2RT
+56       USFSC2RT
+57       USCCH4RT
+58       USOCH4RT
+59       USGCH4RT
+60       USFCH4RT
+61       USCN2ORT
+62       USON2ORT
+63       USGN2ORT
+64       USFN2ORT
+65       USCC2ERT
+66       USOC2ERT
+67       USGC2ERT
+68      USFSC2ERT
+69        USCHGRT
+70       USFSHGRT
+71        USCNOXR
+72        USONOXR
+73        USGNOXR
+74        USFSNXR
+75        USCNXOR
+76        USONXOR
+77        USGNXOR
+78        USFSNOR
+79        USCSO2R
+80        USOSO2R
+81        USGSO2R
+82        USFSS2R
+83        USCCO2R
+84        USOCO2R
+85        USGCO2R
+86        USFSC2R
+87        USCCH4R
+88        USOCH4R
+89        USGCH4R
+90        USFCH4R
+91        USCN2OR
+92        USON2OR
+93        USGN2OR
+94        USFN2OR
+95        USCC2ER
+96        USOC2ER
+97        USGC2ER
+98       USFSC2ER
+99         USCHGR
+100       USFSHGR
+101       USNBNOX
+102       USNBNXO
+103       USNBSO2
+104       USNBCO2
+105       USNBCH4
+106       USNBN2O
+107       USNBC2E
+108        USNBHG
+109      USGENACL
+110      USGENAOL
+111      USGENAGS
+112      USGENANC
+113      USGENAHY
+114      USGENABM
+115      USGENAWI
+116      USGENASO
+117      USGENAGT
+118      USGENAOF
+119      USGENAOP
+120      USGENATN
+121      USGENATR
+122      USGENATO
+123      USGENATH
+124      USGENACY
+125      USGENACN
+126      USGENACO
+127        USCLPR
+128        USOLPR
+129        USGSPR
+130        USNCPR
+131        USHYPR
+132        USBMPR
+133        USWIPR
+134        USSOPR
+135        USGTPR
+136        USOFPR
+137        USOPPR
+138        USTNPR
+139        USTRPR
+140        USTOPR
+141        USTHPR
+142        USCYPR
+143        USCNPR
+144        USCOPR
+145      USNBGNCL
+146      USNBGNOL
+147      USNBGNGS
+148      USNBGNNC
+149      USNBGNHY
+150      USNBGNBM
+151      USNBGNWI
+152      USNBGNSO
+153      USNBGNGT
+154      USNBGNOF
+155      USNBGNOP
+156      USNBCLPR
+157      USNBOLPR
+158      USNBGSPR
+159      USNBNCPR
+160      USNBHYPR
+161      USNBBMPR
+162      USNBWIPR
+163      USNBSOPR
+164      USNBGTPR
+165      USNBOFPR
+166      USNBOPPR
+--------------------------------------------------------------------------------

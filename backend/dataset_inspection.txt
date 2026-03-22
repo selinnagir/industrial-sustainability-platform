@@ -1,0 +1,207 @@
+
+====================================================================================================
+[Industrial energy dataset]
+Dosya ad²: industrial_comb_energy_2014.csv
+Tam yol  : C:\Users\_CASPER_\Desktop\projeostim\backend\data\raw\industrial_comb_energy_2014.csv
+Okuma hatas²: 'utf-8' codec can't decode byte 0xff in position 26453: invalid start byte
+
+====================================================================================================
+[GHGRP dataset]
+Dosya ad²: ghgrp_data_2023.xlsx
+Tam yol  : C:\Users\_CASPER_\Desktop\projeostim\backend\data\raw\ghgrp_data_2023.xlsx
+Ínizleme boyutu: (5, 66)
+
+Kolonlar:
+ - Summary data collected by the Greenhouse Gas Reporting Program for 2023
+ - Unnamed: 1
+ - Unnamed: 2
+ - Unnamed: 3
+ - Unnamed: 4
+ - Unnamed: 5
+ - Unnamed: 6
+ - Unnamed: 7
+ - Unnamed: 8
+ - Unnamed: 9
+ - Unnamed: 10
+ - Unnamed: 11
+ - Unnamed: 12
+ - Unnamed: 13
+ - Unnamed: 14
+ - Unnamed: 15
+ - Unnamed: 16
+ - Unnamed: 17
+ - Unnamed: 18
+ - Unnamed: 19
+ - Unnamed: 20
+ - Unnamed: 21
+ - Unnamed: 22
+ - Unnamed: 23
+ - Unnamed: 24
+ - Unnamed: 25
+ - Unnamed: 26
+ - Unnamed: 27
+ - Unnamed: 28
+ - Unnamed: 29
+ - Unnamed: 30
+ - Unnamed: 31
+ - Unnamed: 32
+ - Unnamed: 33
+ - Unnamed: 34
+ - Unnamed: 35
+ - Unnamed: 36
+ - Unnamed: 37
+ - Unnamed: 38
+ - Unnamed: 39
+ - Unnamed: 40
+ - Unnamed: 41
+ - Unnamed: 42
+ - Unnamed: 43
+ - Unnamed: 44
+ - Unnamed: 45
+ - Unnamed: 46
+ - Unnamed: 47
+ - Unnamed: 48
+ - Unnamed: 49
+ - Unnamed: 50
+ - Unnamed: 51
+ - Unnamed: 52
+ - Unnamed: 53
+ - Unnamed: 54
+ - Unnamed: 55
+ - Unnamed: 56
+ - Unnamed: 57
+ - Unnamed: 58
+ - Unnamed: 59
+ - Unnamed: 60
+ - Unnamed: 61
+ - Unnamed: 62
+ - Unnamed: 63
+ - Unnamed: 64
+ - Unnamed: 65
+
+Veri tipleri:
+Summary data collected by the Greenhouse Gas Reporting Program for 2023    object
+Unnamed: 1                                                                    str
+Unnamed: 2                                                                    str
+Unnamed: 3                                                                    str
+Unnamed: 4                                                                    str
+Unnamed: 5                                                                    str
+Unnamed: 6                                                                    str
+Unnamed: 7                                                                    str
+Unnamed: 8                                                                 object
+Unnamed: 9                                                                 object
+Unnamed: 10                                                                   str
+Unnamed: 11                                                                   str
+Unnamed: 12                                                                   str
+Unnamed: 13                                                                object
+Unnamed: 14                                                                object
+Unnamed: 15                                                                object
+Unnamed: 16                                                                object
+Unnamed: 17                                                                   str
+Unnamed: 18                                                                   str
+Unnamed: 19                                                                   str
+Unnamed: 20                                                                   str
+Unnamed: 21                                                                   str
+Unnamed: 22                                                                   str
+Unnamed: 23                                                                   str
+Unnamed: 24                                                                   str
+Unnamed: 25                                                                   str
+Unnamed: 26                                                                object
+Unnamed: 27                                                                   str
+Unnamed: 28                                                                   str
+Unnamed: 29                                                                   str
+Unnamed: 30                                                                   str
+Unnamed: 31                                                                   str
+Unnamed: 32                                                                   str
+Unnamed: 33                                                                   str
+Unnamed: 34                                                                   str
+Unnamed: 35                                                                   str
+Unnamed: 36                                                                   str
+Unnamed: 37                                                                   str
+Unnamed: 38                                                                   str
+Unnamed: 39                                                                   str
+Unnamed: 40                                                                   str
+Unnamed: 41                                                                   str
+Unnamed: 42                                                                   str
+Unnamed: 43                                                                   str
+Unnamed: 44                                                                   str
+Unnamed: 45                                                                   str
+Unnamed: 46                                                                   str
+Unnamed: 47                                                                   str
+Unnamed: 48                                                                   str
+Unnamed: 49                                                                   str
+Unnamed: 50                                                                   str
+Unnamed: 51                                                                   str
+Unnamed: 52                                                                   str
+Unnamed: 53                                                                   str
+Unnamed: 54                                                                   str
+Unnamed: 55                                                                   str
+Unnamed: 56                                                                   str
+Unnamed: 57                                                                   str
+Unnamed: 58                                                                   str
+Unnamed: 59                                                                   str
+Unnamed: 60                                                                   str
+Unnamed: 61                                                                   str
+Unnamed: 62                                                                   str
+Unnamed: 63                                                                   str
+Unnamed: 64                                                                   str
+Unnamed: 65                                                                   str
+
+¦lk 5 sat²r:
+                                                        Summary data collected by the Greenhouse Gas Reporting Program for 2023   Unnamed: 1          Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5        Unnamed: 6      Unnamed: 7 Unnamed: 8 Unnamed: 9        Unnamed: 10              Unnamed: 11                                                         Unnamed: 12                     Unnamed: 13                     Unnamed: 14              Unnamed: 15                    Unnamed: 16   Unnamed: 17   Unnamed: 18    Unnamed: 19   Unnamed: 20                           Unnamed: 21   Unnamed: 22                          Unnamed: 23                   Unnamed: 24                          Unnamed: 25           Unnamed: 26            Unnamed: 27            Unnamed: 28         Unnamed: 29           Unnamed: 30       Unnamed: 31             Unnamed: 32           Unnamed: 33                Unnamed: 34      Unnamed: 35                                Unnamed: 36         Unnamed: 37               Unnamed: 38     Unnamed: 39     Unnamed: 40          Unnamed: 41                     Unnamed: 42            Unnamed: 43                                             Unnamed: 44                                    Unnamed: 45                                                  Unnamed: 46                                             Unnamed: 47                                     Unnamed: 48                                           Unnamed: 49              Unnamed: 50        Unnamed: 51                Unnamed: 52                  Unnamed: 53                Unnamed: 54            Unnamed: 55                 Unnamed: 56            Unnamed: 57     Unnamed: 58         Unnamed: 59                     Unnamed: 60                                                     Unnamed: 61                Unnamed: 62                                                                                                                                                                        Unnamed: 63                                                                                                                                                                               Unnamed: 64                                                Unnamed: 65
+                                                                    This data was reported to EPA by facilities as of 8/16/2024          NaN                 NaN        NaN        NaN        NaN               NaN             NaN        NaN        NaN                NaN                      NaN                                                                 NaN                             NaN                             NaN                      NaN                            NaN           NaN           NaN            NaN           NaN                                   NaN           NaN                                  NaN                           NaN                                  NaN                   NaN                    NaN                    NaN                 NaN                   NaN               NaN                     NaN                   NaN                        NaN              NaN                                        NaN                 NaN                       NaN             NaN             NaN                  NaN                             NaN                    NaN                                                     NaN                                            NaN                                                          NaN                                                     NaN                                             NaN                                                   NaN                      NaN                NaN                        NaN                          NaN                        NaN                    NaN                         NaN                    NaN             NaN                 NaN                             NaN                                                             NaN                        NaN                                                                                                                                                                                NaN                                                                                                                                                                                       NaN                                                        NaN
+All emissions data is presented in units of metric tons of carbon dioxide equivalent using GWP's from IPCC's AR4 (see FAQs tab)          NaN                 NaN        NaN        NaN        NaN               NaN             NaN        NaN        NaN                NaN                      NaN                                                                 NaN                             NaN Total Facility Emissions by Gas                      NaN                            NaN           NaN           NaN            NaN           NaN                                   NaN           NaN                                  NaN                           NaN                                  NaN  Emissions by Process                    NaN                    NaN                 NaN                   NaN               NaN                     NaN                   NaN                        NaN              NaN                                        NaN                 NaN                       NaN             NaN             NaN                  NaN                             NaN                    NaN                                                     NaN                                            NaN                                                          NaN                                                     NaN                                             NaN                                                   NaN                      NaN                NaN                        NaN                          NaN                        NaN                    NaN                         NaN                    NaN             NaN                 NaN                             NaN                                                             NaN                        NaN                                                                                                                                                                                NaN                                                                                                                                                                                       NaN                                                        NaN
+                                                                                                                    Facility Id       FRS Id       Facility Name       City      State   Zip Code           Address          County   Latitude  Longitude Primary NAICS Code Industry Type (subparts)                                             Industry Type (sectors) Total reported direct emissions   CO2 emissions (non-biogenic)  Methane (CH4) emissions  Nitrous Oxide (N2O) emissions  HFC emissions PFC emissions SF6 emissions  NF3 emissions Other Fully Fluorinated GHG emissions HFE emissions Very Short-lived Compounds emissions Other GHGs (metric tons CO2e) Biogenic CO2 emissions (metric tons) Stationary Combustion Electricity Generation Adipic Acid Production Aluminum Production Ammonia Manufacturing Cement Production Electronics Manufacture Ferroalloy Production Fluorinated GHG Production Glass Production HCFCû22 Production from HFCû23 Destruction Hydrogen Production Iron and Steel Production Lead Production Lime Production Magnesium Production Miscellaneous Use of Carbonates Nitric Acid Production Petroleum and Natural Gas Systems û Offshore Production Petroleum and Natural Gas Systems û Processing Petroleum and Natural Gas Systems û Transmission/Compression Petroleum and Natural Gas Systems û Underground Storage Petroleum and Natural Gas Systems û LNG Storage Petroleum and Natural Gas Systems û LNG Import/Export Petrochemical Production Petroleum Refining Phosphoric Acid Production Pulp and Paper Manufacturing Silicon Carbide Production Soda Ash Manufacturing Titanium Dioxide Production Underground Coal Mines Zinc Production Municipal Landfills Industrial Wastewater Treatment Manufacture of Electric Transmission and Distribution Equipment Industrial Waste Landfills Is some CO2 collected on-site and used to manufacture other products and therefore not emitted from the affected manufacturing process unit(s)? (as reported under Subpart G or S) Is some CO2 reported as emissions from the affected manufacturing process unit(s) under Subpart AA, G or P collected and transferred off-site or injected (as reported under Subpart PP)? Does the facility employ continuous emissions monitoring? 
+                                                                                                                        1013701 110070931003     30-30 Gas Plant     Plains         TX      79355      2300 FM 1622   YOAKUM COUNTY   33.05188 -102.88792             211130     C,PP,RR (RPT),W-PROC Injection of CO2,Petroleum and Natural Gas Systems,Suppliers of CO2                       44170.546                         43895.8                   259.25                         15.496           NaN           NaN            NaN           NaN                                   NaN           NaN                                  NaN                           NaN                                  NaN             27874.396                    NaN                    NaN                 NaN                   NaN               NaN                     NaN                   NaN                        NaN              NaN                                        NaN                 NaN                       NaN             NaN             NaN                  NaN                             NaN                    NaN                                                     NaN                                       16296.15                                                          NaN                                                     NaN                                             NaN                                                   NaN                      NaN                NaN                        NaN                          NaN                        NaN                    NaN                         NaN                    NaN             NaN                 NaN                             NaN                                                             NaN                        NaN                                                                                                                                                                                  N                                                                                                                                                                                         N                                                          N
+                                                                                                                        1012037 110063753656 50 Buttes Gas Plant   Gillette         WY      82716 3669 South Hwy 50 CAMPBELL COUNTY   43.85274 -105.77781             213112                 C,W-PROC                                   Petroleum and Natural Gas Systems                       61389.032                         58078.3                  3278.25                         32.482           NaN           NaN            NaN           NaN                                   NaN           NaN                                  NaN                           NaN                                  NaN              55537.34                    NaN                    NaN                 NaN                   NaN               NaN                     NaN                   NaN                        NaN              NaN                                        NaN                 NaN                       NaN             NaN             NaN                  NaN                             NaN                    NaN                                                     NaN                                       5851.692                                                          NaN                                                     NaN                                             NaN                                                   NaN                      NaN                NaN                        NaN                          NaN                        NaN                    NaN                         NaN                    NaN             NaN                 NaN                             NaN                                                             NaN                        NaN                                                                                                                                                                                  N                                                                                                                                                                                         N                                                          N
+
+====================================================================================================
+[eGRID reference]
+Dosya ad²: egrid2023.xlsx
+Tam yol  : C:\Users\_CASPER_\Desktop\projeostim\backend\data\reference\egrid2023.xlsx
+Ínizleme boyutu: (5, 2)
+
+Kolonlar:
+ - Unnamed: 0
+ - Unnamed: 1
+
+Veri tipleri:
+Unnamed: 0    float64
+Unnamed: 1        str
+
+¦lk 5 sat²r:
+ Unnamed: 0                                                                                                                                             Unnamed: 1
+        NaN                                                                                                                                      Table of Contents
+        NaN                                                                                                                                                    for
+        NaN                                                                                                                               eGRID2023_Data_rev2.xlsx
+        NaN eGRID2023 Unit, Generator, Plant, State, Balancing Authority Area, eGRID Subregion, NERC Region, U.S., Grid Gross Loss (%), and Demographic Data Files
+        NaN                                                                                                                                          June 12, 2025
+
+====================================================================================================
+[Emission factors reference]
+Dosya ad²: epa_ghg_emission_factors_hub_2025.xlsx
+Tam yol  : C:\Users\_CASPER_\Desktop\projeostim\backend\data\reference\epa_ghg_emission_factors_hub_2025.xlsx
+Ínizleme boyutu: (4, 6)
+
+Kolonlar:
+ - Unnamed: 0
+ - Unnamed: 1
+ - Unnamed: 2
+ - Unnamed: 3
+ - Unnamed: 4
+ - Unnamed: 5
+
+Veri tipleri:
+Unnamed: 0    float64
+Unnamed: 1        str
+Unnamed: 2        str
+Unnamed: 3    float64
+Unnamed: 4    float64
+Unnamed: 5        str
+
+¦lk 5 sat²r:
+ Unnamed: 0                                      Unnamed: 1                                                                                                                                                                                                                                                                                                                                                                        Unnamed: 2  Unnamed: 3  Unnamed: 4                      Unnamed: 5
+        NaN Emission Factors for Greenhouse Gas Inventories                                                                                                                                                                                                                                                                                                                                                                               NaN         NaN         NaN                             NaN
+        NaN                                             NaN                                                                                                                                                                                                                                                                                                                                                                               NaN         NaN         NaN Last Modified: January 15, 2025
+        NaN                                             NaN                                                                                                                                                                                                                                                                                                             Blue text indicates an update from the 2024 version of this document.         NaN         NaN                             NaN
+        NaN                                             NaN Typically, greenhouse gas emissions are reported in units of carbon dioxide equivalent (CO2e). Gases are converted to CO2e by multiplying by their global warming potential (GWP). In most cases, the emission factors listed in this document generally have not been converted to CO2e.  To do so, multiply the emissions by the corresponding GWP listed in the table below.           NaN         NaN                             NaN

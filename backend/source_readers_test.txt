@@ -1,0 +1,162 @@
+
+==============================================================================================================
+Industrial Energy Raw
+==============================================================================================================
+Shape: (20117, 23)
+Columns:
+ - FACILITY_ID
+ - FACILITY_NAME
+ - FUEL_TYPE
+ - FUEL_TYPE_BLEND
+ - FUEL_TYPE_OTHER
+ - OTHER_OR_BLEND_FUEL_TYPE
+ - REPORTING_YEAR
+ - UNIT_NAME
+ - UNIT_TYPE
+ - COUNTY
+ - COUNTY_FIPS
+ - LATITUDE
+ - LONGITUDE
+ - STATE
+ - ZIP
+ - PRIMARY_NAICS_CODE
+ - PRIMARY_NAICS_TITLE
+ - COGENERATION_UNIT_EMISS_IND
+ - CENSUS_PLACE_NAME
+ - MECS_Region
+
+Head:
+ FACILITY_ID                                    FACILITY_NAME                       FUEL_TYPE  FUEL_TYPE_BLEND  FUEL_TYPE_OTHER OTHER_OR_BLEND_FUEL_TYPE  REPORTING_YEAR  UNIT_NAME                     UNIT_TYPE         COUNTY  COUNTY_FIPS  LATITUDE   LONGITUDE STATE   ZIP  PRIMARY_NAICS_CODE  PRIMARY_NAICS_TITLE COGENERATION_UNIT_EMISS_IND CENSUS_PLACE_NAME MECS_Region  MMBtu_TOTAL  GWht_TOTAL                                                                 GROUPING
+     1003826 ATLANTIC WASTE DISPOSAL INC - SUSSEX COUNTY LAND                     Propane Gas              NaN              NaN                      NaN            2014 PROPHTR003           CH (Comfort heater)         SUSSEX        51183 37.061279  -77.177106    VA 23890              562212 Solid Waste Landfill                           N               NaN       South  1095.021152    0.320921 Administrative and Support and Waste Management and Remediation Services
+     1003826 ATLANTIC WASTE DISPOSAL INC - SUSSEX COUNTY LAND                     Propane Gas              NaN              NaN                      NaN            2014 PROPHTR001           CH (Comfort heater)         SUSSEX        51183 37.061279  -77.177106    VA 23890              562212 Solid Waste Landfill                           N               NaN       South  1488.773186    0.436319 Administrative and Support and Waste Management and Remediation Services
+     1003826 ATLANTIC WASTE DISPOSAL INC - SUSSEX COUNTY LAND                     Propane Gas              NaN              NaN                      NaN            2014 PROPHTR002           CH (Comfort heater)         SUSSEX        51183 37.061279  -77.177106    VA 23890              562212 Solid Waste Landfill                           N               NaN       South  1488.773186    0.436319 Administrative and Support and Waste Management and Remediation Services
+     1003826 ATLANTIC WASTE DISPOSAL INC - SUSSEX COUNTY LAND                     Propane Gas              NaN              NaN                      NaN            2014  WTRHTR001       HWH (Heater, hot water)         SUSSEX        51183 37.061279  -77.177106    VA 23890              562212 Solid Waste Landfill                           N               NaN       South  2803.449398    0.821615 Administrative and Support and Waste Management and Remediation Services
+     1005928                          LARIMER COUNTY LANDFILL Liquefied petroleum gases (LPG)              NaN              NaN                      NaN            2014       GP-1 OCS (Other combustion source) LARIMER COUNTY         8069 40.498030 -105.120320    CO 80526              562212 Solid Waste Landfill                           N               NaN        West   847.512559    0.248383 Administrative and Support and Waste Management and Remediation Services
+
+==============================================================================================================
+GHGRP Raw
+==============================================================================================================
+Shape: (6470, 66)
+Columns:
+ - Facility Id
+ - FRS Id
+ - Facility Name
+ - City
+ - State
+ - Zip Code
+ - Address
+ - County
+ - Latitude
+ - Longitude
+ - Primary NAICS Code
+ - Industry Type (subparts)
+ - Industry Type (sectors)
+ - Total reported direct emissions
+ - CO2 emissions (non-biogenic) 
+ - Methane (CH4) emissions 
+ - Nitrous Oxide (N2O) emissions 
+ - HFC emissions
+ - PFC emissions
+ - SF6 emissions 
+
+Head:
+ Facility Id       FRS Id               Facility Name      City State  Zip Code           Address           County  Latitude   Longitude  Primary NAICS Code Industry Type (subparts)                                             Industry Type (sectors)  Total reported direct emissions  CO2 emissions (non-biogenic)   Methane (CH4) emissions   Nitrous Oxide (N2O) emissions   HFC emissions  PFC emissions  SF6 emissions   NF3 emissions  Other Fully Fluorinated GHG emissions  HFE emissions  Very Short-lived Compounds emissions  Other GHGs (metric tons CO2e)  Biogenic CO2 emissions (metric tons)  Stationary Combustion  Electricity Generation  Adipic Acid Production  Aluminum Production  Ammonia Manufacturing  Cement Production  Electronics Manufacture  Ferroalloy Production  Fluorinated GHG Production  Glass Production  HCFCû22 Production from HFCû23 Destruction  Hydrogen Production  Iron and Steel Production  Lead Production  Lime Production  Magnesium Production  Miscellaneous Use of Carbonates  Nitric Acid Production  Petroleum and Natural Gas Systems û Offshore Production  Petroleum and Natural Gas Systems û Processing  Petroleum and Natural Gas Systems û Transmission/Compression  Petroleum and Natural Gas Systems û Underground Storage  Petroleum and Natural Gas Systems û LNG Storage  Petroleum and Natural Gas Systems û LNG Import/Export  Petrochemical Production  Petroleum Refining  Phosphoric Acid Production  Pulp and Paper Manufacturing  Silicon Carbide Production  Soda Ash Manufacturing  Titanium Dioxide Production  Underground Coal Mines  Zinc Production  Municipal Landfills  Industrial Wastewater Treatment  Manufacture of Electric Transmission and Distribution Equipment  Industrial Waste Landfills Is some CO2 collected on-site and used to manufacture other products and therefore not emitted from the affected manufacturing process unit(s)? (as reported under Subpart G or S) Is some CO2 reported as emissions from the affected manufacturing process unit(s) under Subpart AA, G or P collected and transferred off-site or injected (as reported under Subpart PP)? Does the facility employ continuous emissions monitoring? 
+     1013701 1.100709e+11             30-30 Gas Plant    Plains    TX     79355      2300 FM 1622    YOAKUM COUNTY 33.051880 -102.887920            211130.0     C,PP,RR (RPT),W-PROC Injection of CO2,Petroleum and Natural Gas Systems,Suppliers of CO2                        44170.546                        43895.8                    259.25                          15.496            NaN            NaN             NaN            NaN                                    NaN            NaN                                   NaN                            NaN                                   NaN              27874.396                     NaN                     NaN                  NaN                    NaN                NaN                      NaN                    NaN                         NaN               NaN                                         NaN                  NaN                        NaN              NaN              NaN                   NaN                              NaN                     NaN                                                      NaN                                       16296.150                                                           NaN                                                      NaN                                              NaN                                                    NaN                       NaN                 NaN                         NaN                           NaN                         NaN                     NaN                          NaN                     NaN              NaN                  NaN                              NaN                                                              NaN                         NaN                                                                                                                                                                                  N                                                                                                                                                                                         N                                                          N
+     1012037 1.100638e+11         50 Buttes Gas Plant  Gillette    WY     82716 3669 South Hwy 50  CAMPBELL COUNTY 43.852740 -105.777810            213112.0                 C,W-PROC                                   Petroleum and Natural Gas Systems                        61389.032                        58078.3                   3278.25                          32.482            NaN            NaN             NaN            NaN                                    NaN            NaN                                   NaN                            NaN                                   NaN              55537.340                     NaN                     NaN                  NaN                    NaN                NaN                      NaN                    NaN                         NaN               NaN                                         NaN                  NaN                        NaN              NaN              NaN                   NaN                              NaN                     NaN                                                      NaN                                        5851.692                                                           NaN                                                      NaN                                              NaN                                                    NaN                       NaN                 NaN                         NaN                           NaN                         NaN                     NaN                          NaN                     NaN              NaN                  NaN                              NaN                                                              NaN                         NaN                                                                                                                                                                                  N                                                                                                                                                                                         N                                                          N
+     1010475          NaN                  AJAX PLANT   Wheeler    TX     79014        16600 CR N              NaN 35.546399 -100.116256            211130.0                 C,W-PROC                                   Petroleum and Natural Gas Systems                        38738.508                        38053.6                    663.75                          21.158            NaN            NaN             NaN            NaN                                    NaN            NaN                                   NaN                            NaN                                   NaN              36776.912                     NaN                     NaN                  NaN                    NaN                NaN                      NaN                    NaN                         NaN               NaN                                         NaN                  NaN                        NaN              NaN              NaN                   NaN                              NaN                     NaN                                                      NaN                                        1961.596                                                           NaN                                                      NaN                                              NaN                                                    NaN                       NaN                 NaN                         NaN                           NaN                         NaN                     NaN                          NaN                     NaN              NaN                  NaN                              NaN                                                              NaN                         NaN                                                                                                                                                                                  N                                                                                                                                                                                         N                                                          N
+     1003129 1.100622e+11                  AKER PLANT STREETMAN    TX     75859       261 FCR 181 FREESTONE COUNTY 31.910000  -96.223300            211130.0              C,PP,W-PROC                  Petroleum and Natural Gas Systems,Suppliers of CO2                        39758.102                        39504.3                    231.75                          22.052            NaN            NaN             NaN            NaN                                    NaN            NaN                                   NaN                            NaN                                   NaN              38867.104                     NaN                     NaN                  NaN                    NaN                NaN                      NaN                    NaN                         NaN               NaN                                         NaN                  NaN                        NaN              NaN              NaN                   NaN                              NaN                     NaN                                                      NaN                                         890.998                                                           NaN                                                      NaN                                              NaN                                                    NaN                       NaN                 NaN                         NaN                           NaN                         NaN                     NaN                          NaN                     NaN              NaN                  NaN                              NaN                                                              NaN                         NaN                                                                                                                                                                                  N                                                                                                                                                                                         N                                                          N
+     1005887 1.100706e+11 ALLIANCE COMPRESSOR STATION    JUSTIN    TX     76247     12495 HWY 114    DENTON COUNTY 33.035120  -97.331434            211130.0                 C,W-PROC                                   Petroleum and Natural Gas Systems                        48988.056                        46801.0                   2180.50                           6.556            NaN            NaN             NaN            NaN                                    NaN            NaN                                   NaN                            NaN                                   NaN              11753.756                     NaN                     NaN                  NaN                    NaN                NaN                      NaN                    NaN                         NaN               NaN                                         NaN                  NaN                        NaN              NaN              NaN                   NaN                              NaN                     NaN                                                      NaN                                       37234.300                                                           NaN                                                      NaN                                              NaN                                                    NaN                       NaN                 NaN                         NaN                           NaN                         NaN                     NaN                          NaN                     NaN              NaN                  NaN                              NaN                                                              NaN                         NaN                                                                                                                                                                                  N                                                                                                                                                                                         N                                                          N
+
+==============================================================================================================
+GHGRP Common Schema
+==============================================================================================================
+Shape: (6470, 8)
+Columns:
+ - facility_name
+ - city
+ - state_or_region
+ - primary_naics_code
+ - sector
+ - reported_emissions_co2e
+ - source_dataset
+ - year
+
+Head:
+              facility_name      city state_or_region  primary_naics_code                                                              sector  reported_emissions_co2e source_dataset  year
+            30-30 Gas Plant    Plains              TX            211130.0 Injection of CO2,Petroleum and Natural Gas Systems,Suppliers of CO2                44170.546     ghgrp_2023  2023
+        50 Buttes Gas Plant  Gillette              WY            213112.0                                   Petroleum and Natural Gas Systems                61389.032     ghgrp_2023  2023
+                 AJAX PLANT   Wheeler              TX            211130.0                                   Petroleum and Natural Gas Systems                38738.508     ghgrp_2023  2023
+                 AKER PLANT STREETMAN              TX            211130.0                  Petroleum and Natural Gas Systems,Suppliers of CO2                39758.102     ghgrp_2023  2023
+ALLIANCE COMPRESSOR STATION    JUSTIN              TX            211130.0                                   Petroleum and Natural Gas Systems                48988.056     ghgrp_2023  2023
+
+==============================================================================================================
+eGRID Preview
+==============================================================================================================
+Shape: (50, 17)
+Columns:
+ - Unnamed: 0
+ - Unnamed: 1
+ - Unnamed: 2
+ - Unnamed: 3
+ - Unnamed: 4
+ - Unnamed: 5
+ - Unnamed: 6
+ - Unnamed: 7
+ - Unnamed: 8
+ - Unnamed: 9
+ - Unnamed: 10
+ - Unnamed: 11
+ - Unnamed: 12
+ - Unnamed: 13
+ - Unnamed: 14
+ - Unnamed: 15
+ - Unnamed: 16
+
+Head:
+ Unnamed: 0                                                                                                                                             Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5  Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10 Unnamed: 11 Unnamed: 12 Unnamed: 13 Unnamed: 14 Unnamed: 15 Unnamed: 16
+        NaN                                                                                                                                      Table of Contents        NaN        NaN        NaN        NaN         NaN        NaN        NaN        NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN
+        NaN                                                                                                                                                    for        NaN        NaN        NaN        NaN         NaN        NaN        NaN        NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN
+        NaN                                                                                                                               eGRID2023_Data_rev2.xlsx        NaN        NaN        NaN        NaN         NaN        NaN        NaN        NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN
+        NaN eGRID2023 Unit, Generator, Plant, State, Balancing Authority Area, eGRID Subregion, NERC Region, U.S., Grid Gross Loss (%), and Demographic Data Files        NaN        NaN        NaN        NaN         NaN        NaN        NaN        NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN
+        NaN                                                                                                                                          June 12, 2025        NaN        NaN        NaN        NaN         NaN        NaN        NaN        NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN
+
+==============================================================================================================
+Emission Factors Raw
+==============================================================================================================
+Shape: (584, 11)
+Columns:
+ - Unnamed: 0
+ - Unnamed: 1
+ - Gas
+ - 100-Year GWP
+ - Unnamed: 4
+ - Unnamed: 5
+ - Unnamed: 6
+ - Unnamed: 7
+ - Unnamed: 8
+ - Unnamed: 9
+ - Unnamed: 10
+
+Head:
+ Unnamed: 0 Unnamed: 1                                                                                                                                                          Gas 100-Year GWP Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10
+        NaN        NaN                                                                                                                                                          CH4           28        NaN        NaN        NaN        NaN        NaN        NaN         NaN
+        NaN        NaN                                                                                                                                                          N2O          265        NaN        NaN        NaN        NaN        NaN        NaN         NaN
+        NaN        NaN Source: Intergovernmental Panel on Climate Change (IPCC), \nFifth Assessment Report (AR5), 2013. \nSee the source note to Table 11 for further explanation.           NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN
+        NaN        NaN                                                                                                                                                          NaN          NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN
+        NaN    Table 1                                                                                                                                        Stationary Combustion          NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN
+
+==============================================================================================================
+Emission Factors Cleaned
+==============================================================================================================
+Shape: (154, 2)
+Columns:
+ - Gas
+ - 100-Year GWP
+
+Head:
+           Gas  100-Year GWP
+           CH4         28.00
+           N2O        265.00
+    Anthracite         25.09
+    Bituminous         24.93
+Sub-bituminous         17.25

@@ -1,0 +1,32 @@
+{
+  "filename": "test_company_data.csv",
+  "file_type": "csv",
+  "rows": 3,
+  "columns": [
+    "company_name",
+    "facility_name",
+    "state_or_region",
+    "date",
+    "energy_mwh",
+    "electricity_mwh",
+    "fuel_type",
+    "direct_emissions_tons",
+    "water_use",
+    "waste_tons",
+    "production_amount",
+    "source_file_type"
+  ],
+  "mapping": {
+    "company_name": "company_name",
+    "facility_name": "facility_name",
+    "state_or_region": "state_or_region",
+    "date": "date",
+    "energy_mwh": "energy_mwh",
+    "electricity_mwh": "electricity_mwh",
+    "fuel_type": null,
+    "direct_emissions_tons": "direct_emissions_tons",
+    "water_use": "water_use",
+    "waste_tons": "waste_tons",
+    "production_amount": null
+  }
+}

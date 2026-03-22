@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+dist/
+build/
+coverage/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Uploaded/generated files
+*.pdf
+company_report_test.pdf
+
+# Python caches
+.pytest_cache/
+.mypy_cache/
+
+# Frontend caches
+.vite/
+
+# Data files (isteğe göre açarsın)
+*.xlsx
+*.xls
+*.csv
+
+# Misc
+tmp/
+temp/
